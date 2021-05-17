@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class UserService {
 
   constructor(private fb: FormBuilder, private http: HttpClient) { }
-  readonly BaseURI = 'https://loginsignup.azurewebsites.net/api';
+  readonly BaseURI = ' https://ramakanth.azurewebsites.net/api';
 
   formModel = this.fb.group({
     UserName: ['', Validators.required],
